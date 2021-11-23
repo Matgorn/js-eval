@@ -1,4 +1,4 @@
-function findMultiplesOf3And2(n) {
+export const findMultiplesOf3And2 = (n) => {
   let total = 0;
 
   for (let i = 0; i < n; i++) {
