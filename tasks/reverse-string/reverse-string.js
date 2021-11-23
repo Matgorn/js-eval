@@ -1,6 +1,6 @@
-const reverseString = (string) => string.split('').reverse().join('');
+export const reverseString = (string) => string.split('').reverse().join('');
 
-const reverseString2 = (string) => {
+export const reverseString2 = (string) => {
   let result = '';
 
   for (let i = string.length - 1; i >= 0; i--) {
@@ -10,7 +10,7 @@ const reverseString2 = (string) => {
   return result;
 };
 
-const reverseString3 = (string) => {
+export const reverseString3 = (string) => {
   let result = ''
 
   for (let i = 1; i < string.length + 1; i++) {
@@ -20,7 +20,7 @@ const reverseString3 = (string) => {
   return result;
 };
 
-const reverseString4 = (string) => {
+export const reverseString4 = (string) => {
   const result = [];
 
   string.split('').forEach(character => result.unshift(character));
@@ -28,4 +28,4 @@ const reverseString4 = (string) => {
   return result.join('');
 };
 
-const reverseString5 = (string) => string.split('').reduce((acc, currVal) => `${currVal}${acc}`, '');
+export const reverseString5 = (string) => string.split('').reduce((acc, currVal) => `${currVal}${acc}`, '');
