@@ -1,4 +1,4 @@
-function longestWords(string) {
+export const longestWords = (string) => {
   const words = string.split(/\W+/g);
   const result = [];
   let longest = 0;
