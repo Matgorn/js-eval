@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/Matgorn/js-eval#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "babel-polyfill": "^6.26.0",
     "jest": "^27.3.1"
   }
 }
