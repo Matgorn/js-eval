@@ -1,4 +1,5 @@
-function bubbleSort(...nums) {
+// No.1 Variant
+export const bubbleSort = (...nums) => {
   let swapped = false;
 
   do {
@@ -19,7 +20,8 @@ function bubbleSort(...nums) {
   return nums;
 };
 
-function bubbleSort2(...nums) {
+// No.2 variant
+export const bubbleSort2 = (...nums) => {
   for (let i = 0; i < nums.length; i++) {
     for (let j = 0; j < nums.length - 1; j++) {
       if (nums[j] > nums[j + 1]) {
