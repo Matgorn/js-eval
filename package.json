@@ -1,0 +1,22 @@
+{
+  "name": "js-eval",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matgorn/js-eval.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matgorn/js-eval/issues"
+  },
+  "homepage": "https://github.com/Matgorn/js-eval#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
