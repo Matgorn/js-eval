@@ -1,4 +1,4 @@
-function integerDifference(n, ...numsArray) {
+export const integerDifference = (n, numsArray) => {
   const usedIndexes = [];
 
   for (let i = 0; i < numsArray.length; i++) {
@@ -18,7 +18,7 @@ function integerDifference(n, ...numsArray) {
   return usedIndexes.length;
 };
 
-function integerDifference2(n, ...numsArray) {
+export const integerDifference2 = (n, numsArray) => {
   const store = {};
   let result = 0;
 
