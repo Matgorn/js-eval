@@ -19,9 +19,11 @@ export const arrayPairSum = (n, arr) => {
 // Provide additional boolean value as third argument
 // to prevent function from creating new Set everytime
 // the function is invoked
-export const arrayPairSum2 = (n, arr, init) => {
+export const arrayPairSum2 = (n, arr, init = true) => {
   let result;
   arr = init ? [...new Set(arr)] : arr;
+  
+  if (init === true) { init = false };
 
   const firstElement = arr[0];
   const matchingElementIdx = arr.indexOf(n > 0 && firstElement > 0 && n - firstElement);
