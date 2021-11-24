@@ -37,5 +37,3 @@ export class Stack {
     }
   }
 };
-
-const stack = new Stack('a', 'b', 'c');
