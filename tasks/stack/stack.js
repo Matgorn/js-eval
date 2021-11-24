@@ -1,4 +1,4 @@
-class Stack {
+export class Stack {
   constructor(...elements) {
     this.value = [...elements];
     this.count = elements.length;
